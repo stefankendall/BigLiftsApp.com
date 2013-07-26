@@ -4,3 +4,44 @@
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 
 @import "compass/reset";
+
+.container {
+  margin-top: 7em;
+}
+
+.appname {
+  font-size: 4em;
+}
+
+.description {
+  .subtext {
+    color: #868686;
+    text-align: right;
+    margin-right: 1.5em;
+  }
+}
+
+.features {
+  margin-top: 5em;
+  margin-left: 0;
+
+  .programming {
+    font-weight: bold;
+    color: #555;
+    font-size: 1.5em;
+  }
+
+  .programming-list {
+    li {
+      padding-bottom: 0.7em;
+      list-style-type: circle;
+    }
+    li:first-child {
+      margin-top: 1em;
+    }
+  }
+}
+
+.links {
+  margin-top: 3em;
+}

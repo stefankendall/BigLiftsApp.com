@@ -66,3 +66,46 @@ a img {
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
   display: block;
 }
+
+/* line 8, ../../sass/screen.scss */
+.container {
+  margin-top: 7em;
+}
+
+/* line 12, ../../sass/screen.scss */
+.appname {
+  font-size: 4em;
+}
+
+/* line 17, ../../sass/screen.scss */
+.description .subtext {
+  color: #868686;
+  text-align: right;
+  margin-right: 1.5em;
+}
+
+/* line 24, ../../sass/screen.scss */
+.features {
+  margin-top: 5em;
+  margin-left: 0;
+}
+/* line 28, ../../sass/screen.scss */
+.features .programming {
+  font-weight: bold;
+  color: #555;
+  font-size: 1.5em;
+}
+/* line 35, ../../sass/screen.scss */
+.features .programming-list li {
+  padding-bottom: 0.7em;
+  list-style-type: circle;
+}
+/* line 39, ../../sass/screen.scss */
+.features .programming-list li:first-child {
+  margin-top: 1em;
+}
+
+/* line 45, ../../sass/screen.scss */
+.links {
+  margin-top: 3em;
+}
