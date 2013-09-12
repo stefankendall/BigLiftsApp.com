@@ -34,9 +34,15 @@
 }
 
 .links {
-  margin-top: 3em;
+  margin-top: 2em;
 }
 
 .iphone {
   max-width: 968px;
+}
+
+.privacy {
+  a {
+    color: tint(#428bca, 40%) !important;
+  }
 }

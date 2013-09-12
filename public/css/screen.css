@@ -98,10 +98,15 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 
 /* line 36, ../../sass/screen.scss */
 .links {
-  margin-top: 3em;
+  margin-top: 2em;
 }
 
 /* line 40, ../../sass/screen.scss */
 .iphone {
   max-width: 968px;
+}
+
+/* line 45, ../../sass/screen.scss */
+.privacy a {
+  color: #8db9df !important;
 }
