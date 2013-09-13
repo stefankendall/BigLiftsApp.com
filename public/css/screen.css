@@ -63,60 +63,66 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   display: block;
 }
 
-/* line 3, ../../sass/screen.scss */
+/* line 5, ../../sass/screen.scss */
 .container {
   margin-top: 0.5em;
 }
 
-/* line 7, ../../sass/screen.scss */
+/* line 9, ../../sass/screen.scss */
 .appname {
   font-size: 4em;
 }
 
-/* line 12, ../../sass/screen.scss */
+/* line 14, ../../sass/screen.scss */
 .description .subtext {
   color: #868686;
   margin-top: 1em;
 }
 
-/* line 18, ../../sass/screen.scss */
+/* line 20, ../../sass/screen.scss */
 .features {
   margin-top: 3em;
   margin-left: 0;
 }
-/* line 22, ../../sass/screen.scss */
+/* line 24, ../../sass/screen.scss */
 .features .programming {
   font-weight: bold;
   color: #555;
   font-size: 1.5em;
 }
-/* line 28, ../../sass/screen.scss */
+/* line 30, ../../sass/screen.scss */
 .features .programming-list {
   margin-left: 1em;
 }
-/* line 30, ../../sass/screen.scss */
+/* line 32, ../../sass/screen.scss */
 .features .programming-list li {
   padding-bottom: 0.7em;
   list-style-type: circle;
 }
-/* line 34, ../../sass/screen.scss */
+/* line 36, ../../sass/screen.scss */
 .features .programming-list li:first-child {
   margin-top: 1em;
 }
 
-/* line 40, ../../sass/screen.scss */
+/* line 42, ../../sass/screen.scss */
 .links {
   margin-top: 2em;
 }
 
-/* line 44, ../../sass/screen.scss */
+/* line 46, ../../sass/screen.scss */
 .iphone {
-  max-width: 350px;
+  width: 275px;
   display: block;
   margin: 0 auto;
 }
 
-/* line 51, ../../sass/screen.scss */
+@media (min-width: 992px) {
+  /* line 53, ../../sass/screen.scss */
+  .iphone {
+    width: 350px;
+  }
+}
+/* line 59, ../../sass/screen.scss */
 .privacy a {
   color: #8db9df !important;
 }

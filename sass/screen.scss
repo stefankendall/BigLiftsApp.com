@@ -1,4 +1,6 @@
 @import "compass/reset";
+$screen-sm: 768px;
+$screen-md: 992px;
 
 .container {
   margin-top: 0.5em;
@@ -42,9 +44,15 @@
 }
 
 .iphone {
-  max-width: 350px;
+  width: 275px;
   display: block;
   margin: 0 auto;
+}
+
+@media (min-width: $screen-md) {
+  .iphone {
+    width: 350px;
+  }
 }
 
 .privacy {
