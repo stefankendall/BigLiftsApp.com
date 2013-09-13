@@ -1,8 +1,11 @@
 @import "compass/reset";
 
+.container {
+  margin-top: 0.5em;
+}
+
 .appname {
   font-size: 4em;
-  margin-top: 0.5em;
 }
 
 .description {
@@ -23,6 +26,7 @@
   }
 
   .programming-list {
+    margin-left: 1em;
     li {
       padding-bottom: 0.7em;
       list-style-type: circle;
@@ -38,7 +42,9 @@
 }
 
 .iphone {
-  max-width: 968px;
+  max-width: 350px;
+  display: block;
+  margin: 0 auto;
 }
 
 .privacy {

@@ -5,10 +5,10 @@ Syntax error: File to import not found or unreadable: compass/reset.
 
 1: @import "compass/reset";
 2: 
-3: .appname {
-4:   font-size: 4em;
-5:   margin-top: 0.5em;
-6: }
+3: .container {
+4:   margin-top: 0.5em;
+5: }
+6: 
 
 Backtrace:
 screen.scss:1
@@ -50,4 +50,4 @@ screen.scss:1
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Syntax error: File to import not found or unreadable: compass/reset.\A               Load path: /Users/stefankendall/work/bigliftsapp-com/sass\A         on line 1 of screen.scss\A \A 1: @import \"compass/reset\";\A 2: \A 3: .appname {\A 4:   font-size: 4em;\A 5:   margin-top: 0.5em;\A 6: }"; }
+  content: "Syntax error: File to import not found or unreadable: compass/reset.\A               Load path: /Users/stefankendall/work/bigliftsapp-com/sass\A         on line 1 of screen.scss\A \A 1: @import \"compass/reset\";\A 2: \A 3: .container {\A 4:   margin-top: 0.5em;\A 5: }\A 6: "; }
